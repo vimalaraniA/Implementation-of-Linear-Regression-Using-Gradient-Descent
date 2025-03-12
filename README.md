@@ -17,9 +17,9 @@ To write a program to predict the profit of a city using the linear regression m
 
 Program to implement the linear regression using gradient descent.
 
-Developed by: DHIRAVIYA S
+Developed by: VIMALA RANI A
 
-RegisterNumber:  212223040041
+RegisterNumber:  212223040240
 
 ```
 import numpy as np
@@ -42,8 +42,8 @@ def linear_regression(X1, y, learning_rate=0.1, num_iters=1000):
 data=pd.read_csv("C:\\Users\\admin\\OneDrive\\Desktop\\ML\\DATASET-20250226\\50_Startups.csv")
 data.head()
 ```
+![Screenshot 2025-03-12 222052](https://github.com/user-attachments/assets/a08bf983-a6f4-4921-91ca-c4dbad1e2609)
 
-![image](https://github.com/user-attachments/assets/13701738-78df-4706-bee2-340b4f256880)
 
 ```
 X=(data.iloc[1:,:-2].values)
@@ -56,13 +56,15 @@ Y1_Scaled=scaler.fit_transform(y)
 print(X)
 ```
 
-![image](https://github.com/user-attachments/assets/84fe68af-607b-4c4c-ae53-3e428846f9ee)
+![Screenshot 2025-03-12 222123](https://github.com/user-attachments/assets/4f2a6ca3-ab81-41f1-a11c-e5856fdcc938)
+
 
 ```
 print(X1_Scaled)
 ```
 
-![image](https://github.com/user-attachments/assets/ab8f9e2a-6c29-42fc-90b0-ae9a87074c21)
+![Screenshot 2025-03-12 222139](https://github.com/user-attachments/assets/577e3c91-7af9-43db-a846-138b6e7e9262)
+
 
 
 ```
